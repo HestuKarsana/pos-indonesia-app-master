@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "sdkVersion": "28.0.0",
+    "version": "1.0.2",
+    "privacy": "public",
+    "name": "POS Indonesia",
+    "description": "PT Pos Indonesia (Persero)",
+    "icon": "./assets/iconlogo.png",
+    "slug": "posindonesia",
+    "splash": {
+      "image": "./assets/splash_pos.png",
+      "resizeMode": "cover"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#58595B",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "app.posindonesia.co.id"
+    },
+    "android": {
+      "package": "app.posindonesia.co.id"
+    }
+  }
+}
