@@ -40,6 +40,7 @@ const iconCekTarif = require("../../../assets/iconmenus/cektarif.png");
 const iconPengiriman = require("../../../assets/iconmenus/pengiriman.png");
 const iconJemput = require("../../../assets/iconmenus/jemput.png");
 const iconNotif = require("../../../assets/iconmenus/notifikasi.png");
+const iconPgm = require("../../../assets/iconmenus/pgm.png");
 const iconHallo = require("../../../assets/iconmenus/hallopos.png");
 const iconKodePos = require("../../../assets/iconmenus/kodepos.png");
 const iconPromo = require("../../../assets/iconmenus/promo.png");
@@ -245,7 +246,7 @@ class Beranda extends Component {
                         {/* <View style={{width: DeviceWidth*0.3, height: DeviceWidth*0.3, marginLeft:1, flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FFFFFF'}} /> */}
                         <TouchableHighlight underlayColor="#D8D8D8" onPress={() => this.props.navigation.navigate("Notifikasi")}>
                           <View style={{width: DeviceWidth*0.3, height: DeviceWidth*0.3, marginBottom:1, marginLeft:1, flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FFFFFF'}} >
-                            <Image source={iconNotif} style={{width: 40, height: 40}}/>
+                            <Image source={iconPgm} style={{width: 40, height: 40}}/>
                             <Text style={styles.iconText}>POS GIRO</Text>
                           </View>
                         </TouchableHighlight>
