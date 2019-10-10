@@ -166,6 +166,11 @@ class Profile extends Component {
                 <CardItem header>
                     <Text style={{color: '#f26623', fontWeight: '400', fontSize: 18}}>Bantuan</Text>					
                 </CardItem>	
+                <TouchableHighlight underlayColor="#E6E6E6" onPress={() => WebBrowser.openBrowserAsync('https://play.google.com/store/apps/details?id=com.posindonesia.giropos&hl=en')} >
+                <CardItem bordered>
+                    <Text>POS GIRO MOBILE</Text>				            
+                </CardItem>		
+                </TouchableHighlight>
                 <TouchableHighlight underlayColor="#E6E6E6" onPress={() => Communications.phonecall(this.state.haloPOS, false)}>
                 <CardItem bordered>
                     <Text>Halo Pos 161</Text>				            
@@ -191,7 +196,7 @@ class Profile extends Component {
               </Card>
             
             <View style={styles.versionContainer}>
-                <Text style={styles.versionText}>Versi 1.0.1</Text>
+                <Text style={styles.versionText}>Versi 2.0.1</Text>
             </View>
           </Content>
           );

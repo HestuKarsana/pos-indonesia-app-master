@@ -242,7 +242,13 @@ class Beranda extends Component {
                             <Text style={styles.iconText}>Kantor Pos Terdekat</Text>
                           </View>
                         </TouchableHighlight>
-                        <View style={{width: DeviceWidth*0.3, height: DeviceWidth*0.3, marginLeft:1, flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FFFFFF'}} />
+                        {/* <View style={{width: DeviceWidth*0.3, height: DeviceWidth*0.3, marginLeft:1, flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FFFFFF'}} /> */}
+                        <TouchableHighlight underlayColor="#D8D8D8" onPress={() => this.props.navigation.navigate("Notifikasi")}>
+                          <View style={{width: DeviceWidth*0.3, height: DeviceWidth*0.3, marginBottom:1, marginLeft:1, flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FFFFFF'}} >
+                            <Image source={iconNotif} style={{width: 40, height: 40}}/>
+                            <Text style={styles.iconText}>POS GIRO</Text>
+                          </View>
+                        </TouchableHighlight>
                       </View>    
                     </View>
                   </View>  
