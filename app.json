@@ -3,10 +3,10 @@
     "sdkVersion": "28.0.0",
     "version": "1.0.2",
     "privacy": "public",
-    "name": "POS Indonesia",
+    "name": "CRM POS INDONESIA",
     "description": "PT Pos Indonesia (Persero)",
     "icon": "./assets/iconlogo.png",
-    "slug": "posindonesia",
+    "slug": "posindonesiacrm",
     "splash": {
       "image": "./assets/splash_pos.png",
       "resizeMode": "cover"
@@ -23,6 +23,11 @@
     },
     "android": {
       "package": "app.posindonesia.co.id"
-    }
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "githubUrl": "https://github.com/HestuKarsana/pos-indonesia-app-master.git"
   }
 }
