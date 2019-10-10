@@ -1,7 +1,8 @@
 {
   "hostType": "tunnel",
   "lanType": "ip",
-  "dev": true,
-  "minify": false,
-  "urlRandomness": "6p-q62"
+  "dev": false,
+  "minify": true,
+  "urlRandomness": "6f-7pu",
+  "https": false
 }

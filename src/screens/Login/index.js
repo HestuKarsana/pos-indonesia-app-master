@@ -154,6 +154,7 @@ class Login extends Component {
 					<View style={styles.bottomInfo}>
 						<Text style={{fontSize:14, color: 'rgba(255,255,255,0.7)'}}>Anda belum punya akun? </Text>
 						<Text style={{fontSize:14, color: '#FFFFFF', fontWeight: '500'}} onPress={() => this.props.navigation.navigate("Register")}>Daftar Sekarang</Text>
+						<Text style={{fontSize:14, color: 'rgba(255,255,255,0.7)'}}>Version 2.0.1</Text>
 					</View>
 				</Content>
 			</ImageBackground>				
