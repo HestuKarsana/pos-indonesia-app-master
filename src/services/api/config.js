@@ -6,7 +6,7 @@ export default {
     // SERVER_URL: 'http://exml.co.id:9088',
     // POS_API: '/api/v1/mobile',  
     //-----> Production Server	:
-    SERVER_URL: 'https://apicrm.posindonesia.co.id',     
+    SERVER_URL: 'https://apicrm.posindonesia.co.id:1043',     
     POS_API: '/api/v1/mobile',  
     USERNAME: 'maman@gmail.com',
     PASSWORD: 'admin1234',
