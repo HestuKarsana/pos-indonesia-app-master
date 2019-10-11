@@ -17,7 +17,7 @@ const setSessionTimeout = (duration) => {
 	sessionTimeout = setTimeout(
 		refreshToken, // eslint-disable-line no-use-before-define
 		(duration - SESSION_TIMEOUT_THRESHOLD) * 10000
-
+		
 	);
 };
 
@@ -41,7 +41,7 @@ const onRequestSuccess = (response) => {
 	store.dispatch(actionCreators.update({ user: response.user }));
 	// const session = selectors.get();
 	// // setSessionTimeout(tokens.access.expiresIn);
-	setSessionTimeout(31104000);  // 1 Hour 3600 second
+	setSessionTimeout(3600);  // 1 Hour 3600 second
 	return response
 };
 

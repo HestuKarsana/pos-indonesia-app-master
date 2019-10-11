@@ -172,7 +172,7 @@ class OnlineBook extends ValidationComponent {
                         isLoading: false,
                         dataSourceShipper: ds.cloneWithRows(response.rs_postcode.r_postcode),
                     });
-                    if(response.rs_postcode.r_postcode[0].city === 'NEGARA'){
+                    if(response.rs_postcode.r_postcode[0].city === ''){
                         this.onInputClearedShipper()
                     }
 
@@ -215,7 +215,7 @@ class OnlineBook extends ValidationComponent {
                         isLoading: false,
                         dataSourceReceiver: ds.cloneWithRows(response.rs_postcode.r_postcode),
                     });
-                    if(response.rs_postcode.r_postcode[0].city === 'NEGARA'){
+                    if(response.rs_postcode.r_postcode[0].city === ''){
                         this.onInputClearedReceiver()
                     }
 
