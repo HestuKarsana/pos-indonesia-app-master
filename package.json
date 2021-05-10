@@ -38,7 +38,7 @@
     "expo": "28.0.0",
     "fetchival": "^0.3.3",
     "invoice-number": "^1.0.4",
-    "lodash": "4.13.1",
+    "lodash": "4.17.21",
     "md5": "^2.2.1",
     "moment": "^2.13.0",
     "native-base": "2.5.2",
